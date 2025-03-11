@@ -1,8 +1,11 @@
 const Post = require("../models/Post");
 const PostList = require("../models/PostList");
+
 const post  = new PostList();
 
-lista.addPost(new Post("Com minha amiga", "@wxleme", "1000", "@user123: lindassss!", "https://br.pinterest.com/pin/621285711068651272/" ));
+const post1 = new Post("Com minha amiga", "@wxleme", "1000", "@user123: lindassss!", "https://br.pinterest.com/pin/621285711068651272/" );
+lista.addPost(post1);
+
 lista.addPost(new Post("Com meu amor", "@wxleme", "2000", "@thais: meu casalll", "https://br.pinterest.com/pin/751608625283593918/" ));
 
 const router = {
