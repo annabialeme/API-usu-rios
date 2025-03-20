@@ -1,3 +1,5 @@
+const {v4: uuid4} = require("uuid");
+
 class Post {
     constructor(description, user, like, comment, url) {
         this.id = Date.now().toString();

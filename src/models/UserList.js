@@ -19,9 +19,9 @@ getUserById(id) {
     return user;
 }
 
-updateUser(id, updatedData) {
+updateUser(id, updateData) {
     const user = this.getUserById(id);
-    Object.assign(user, updatedData);
+    Object.assign(user, updateData);
     return user;
 }
 
